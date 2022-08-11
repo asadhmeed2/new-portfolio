@@ -4,7 +4,7 @@ import './css/logo.style.css'
 
 function Logo() {
   return (
-    <div className="logo">
+    <div className="logo-wrapper">
         <img src={logo} alt="logo" className="logo" />
     </div>
   )
