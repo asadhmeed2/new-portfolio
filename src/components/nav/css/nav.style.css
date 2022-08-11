@@ -1,4 +1,7 @@
 .nav {
     height: 100px;
-    background-color: rgb(19, 16, 16)
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 16, 16);
+    padding: 0em 1em
 }

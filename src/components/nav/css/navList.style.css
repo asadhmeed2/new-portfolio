@@ -1,0 +1,16 @@
+.nav-list > li > a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 1 ease-in-out;
+}
+
+.nav-list > li > a:hover {
+    text-decoration: underline;
+    color:rgb(235, 187, 96);
+}
+.nav-list{
+    list-style: none;
+    margin-top:30px;
+    font-size:20px;
+    margin-right:1rem;
+}
