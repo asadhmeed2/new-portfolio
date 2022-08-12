@@ -1,18 +1,16 @@
 .card{
     display: grid;
-    gap:10px;
+    gap:1rem;
     grid-template-areas: 
     'imag'
     'name'
     'sumary'
-    'contact'
+    'contect'
     ;
     max-width: 80%;
 }
 @media (min-width: 768px) {
     .card{
-        display: grid;
-        gap:10px;
         grid-template-areas: 
         'imag name'
         'contect sumary';
@@ -35,6 +33,13 @@
 .contect{
     grid-area: 'contect';
 }
+
 .sumary{
     grid-area: 'sumary';
+}
+
+.contect > ul{
+    list-style: none;
+    text-align: center;
+    padding-left:0;
 }
