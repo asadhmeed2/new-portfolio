@@ -1,8 +1,40 @@
 .card{
+    display: grid;
+    gap:10px;
+    grid-template-areas: 
+    'imag'
+    'name'
+    'sumary'
+    'contact'
+    ;
     max-width: 80%;
 }
 @media (min-width: 768px) {
     .card{
+        display: grid;
+        gap:10px;
+        grid-template-areas: 
+        'imag name'
+        'contect sumary';
         max-width:60%;
+        min-height:40vh;
     }
+}
+.centered{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.portfolio-imag{
+    grid-area: 'imag';
+}
+.name{
+    grid-area: 'name';
+}
+.contect{
+    grid-area: 'contect';
+}
+.sumary{
+    grid-area: 'sumary';
 }
