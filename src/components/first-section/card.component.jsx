@@ -7,7 +7,7 @@ const Card = () => {
         <div className="centered portfolio-imag">portfolio image</div>
         <div className="centered name"><h1>Asaad Hmeed</h1></div>
         <div className="centered contect">
-            <ul>
+            <ul className="">
                 <li>Github</li>
                 <li>Linked</li>
             </ul>
