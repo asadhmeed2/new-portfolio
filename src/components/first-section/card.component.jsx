@@ -3,7 +3,7 @@ import   "./css/card.style.css";
 
 const Card = () => {
   return (
-    <section className="card">
+    <div className="card">
         <div className="centered portfolio-imag">portfolio image</div>
         <div className="centered name"><h1>Asaad Hmeed</h1></div>
         <div className="centered contect">
@@ -19,7 +19,7 @@ const Card = () => {
             Looking for a challenging development position as a junior Full Stack Web Developer.<br/>
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 

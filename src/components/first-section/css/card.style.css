@@ -3,10 +3,10 @@
     display: grid;
     gap:1rem;
     grid-template-areas: 
-    "imag"
-    "name"
-    "sumary"
-    "contect";
+    'imag'
+    'name'
+    'sumary'
+    'contect';
 }
 
 .centered{
@@ -16,22 +16,21 @@
 }
 
 .portfolio-imag{
-    grid-area: 'imag';
+    grid-area: imag;
 }
 .name{
-    grid-area: 'name';
+    grid-area: name;
 }
 .contect{
-    grid-area: 'contect';
+    grid-area: contect;
 }
 
 .sumary{
-    grid-area: 'sumary';
+    grid-area: sumary;
 }
 
 .contect > ul{
     list-style: none;
-    text-align: center;
     padding-left:0;
 }
 
@@ -39,8 +38,8 @@
 @media (min-width: 768px) {
     .card{
         grid-template-areas: 
-        'imag name'
-        'contect sumary';
+        'imag name name'
+        'contect sumary sumary';
         max-width:60%;
         min-height:40vh;
     }
