@@ -14,6 +14,10 @@
     justify-content:center;
     align-items:center;
 }
+.card-border{
+    border: 1px solid black;
+    border-radius: 15px;
+}
 
 .portfolio-imag{
     grid-area: imag;
@@ -38,8 +42,8 @@
 @media (min-width: 768px) {
     .card{
         grid-template-areas: 
-        'imag name name'
-        'contect sumary sumary';
+        'imag name '
+        'contect sumary ';
         max-width:60%;
         min-height:40vh;
     }
