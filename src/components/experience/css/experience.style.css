@@ -1,0 +1,15 @@
+@import url("../../../App.css");
+
+
+.experience{
+    margin :1rem 0;
+    border:1px solid black;
+    padding:1rem 1rem;
+    border-radius:15px;
+    max-width: 73%;
+}
+@media (min-width: 768px) {
+    .experience{
+        max-width:57%;
+    }
+}

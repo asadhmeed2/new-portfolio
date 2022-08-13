@@ -11,8 +11,8 @@ const Card = () => {
         <div className="centered card-border name"><h1>Asaad Hmeed</h1></div>
         <div className="centered card-border contect">
             <ul className="">
-                <li><a href={GITHUB_URL} rel="noopener noreferrer">Github</a></li>
-                <li><a href={ LINKEDIN_URL } rel="noopener noreferrer">Linked</a></li>
+                <li><a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li><a href={ LINKEDIN_URL } target="_blank" rel="noopener noreferrer">Linked</a></li>
             </ul>
         </div>
         <div className="centered card-border sumary">
