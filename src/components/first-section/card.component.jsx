@@ -1,15 +1,18 @@
 import React from 'react'
+import img from '../../images/my-image/AppleSeeds_my_pic2.jpg';
+import { GITHUB_URL, LINKEDIN_URL } from '../../consts';
 import   "./css/card.style.css";
 
-const Card = () => {
+
+const Card = () => { 
   return (
     <div className="card">
-        <div className="centered card-border portfolio-imag">portfolio image</div>
+        <div className="centered card-border portfolio-imag"><img src={img} className="my-image" alt="MY IMAG"/></div>
         <div className="centered card-border name"><h1>Asaad Hmeed</h1></div>
         <div className="centered card-border contect">
             <ul className="">
-                <li>Github</li>
-                <li>Linked</li>
+                <li><a href={GITHUB_URL} rel="noopener noreferrer">Github</a></li>
+                <li><a href={ LINKEDIN_URL } rel="noopener noreferrer">Linked</a></li>
             </ul>
         </div>
         <div className="centered card-border sumary">
