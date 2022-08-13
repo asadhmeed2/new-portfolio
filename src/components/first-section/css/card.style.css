@@ -1,3 +1,5 @@
+@import url("../../../App.css");
+
 .card{
     max-width: 80%;
     display: grid;
@@ -14,7 +16,7 @@
     display: flex;
     justify-content:center;
     align-items:center;
-    padding:0 15px;
+    padding:15px 15px;
 }
 .card-border{
     border: 1px solid black;
@@ -26,9 +28,12 @@
 }
 .name{
     grid-area: name;
+    background:var(--background);
+    color: var(--text-secondary);
 }
 .contect{
     grid-area: contect;
+    background:var(--background);
 }
 
 .sumary{
@@ -38,6 +43,14 @@
 .contect > ul{
     list-style: none;
     padding-left:0;
+}
+.contect > ul > li > a{
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+.contect > ul > li > a:hover{
+    text-decoration: underline;
+    color:var(--logo);
 }
 
 .my-image{
