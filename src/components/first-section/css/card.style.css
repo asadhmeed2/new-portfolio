@@ -10,6 +10,7 @@
     'sumary'
     'contect';
     margin-top: 1rem;
+    animation: cardAmimation 1.5s ease-in-out;
 }
 
 .card-border{
@@ -37,6 +38,9 @@
 .contect > ul{
     list-style: none;
     padding-left:0;
+    width:50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .my-image{
@@ -52,6 +56,19 @@
         max-width:60%;
         min-height:40vh;
     }
+    .contect > ul{
+        flex-direction: column;
+    }
+}
+@keyframes cardAmimation {
+
+    0%{
+        transform: translateX(-150%)
+    }
+    100%{
+        transform: translateX(0)
+    }
+
 }
 .contactIcon{
     width:50px;
