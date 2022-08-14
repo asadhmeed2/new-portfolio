@@ -58,9 +58,12 @@
     height: 50px;
     fill: var(--text-secondary);
     border: 1px solid transparent;
+    transition: all 0.2s ease-in;
 }
 
 .contactIcon:hover{
     fill: var(--logo);
+    border-radius: 10px;
     border: 1px solid var(--logo);
+    transition: all .6s ease-out;
 }
