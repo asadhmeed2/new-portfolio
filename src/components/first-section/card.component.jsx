@@ -3,6 +3,7 @@ import img from '../../images/my-image/AppleSeeds_my_pic2.jpg';
 import GithubIcon from '../../images/svgs/githubIcon';
 import { GITHUB_URL, LINKEDIN_URL } from '../../consts';
 import   "./css/card.style.css";
+import LinkedInIcon from '../../images/svgs/linkedInIcon';
 
 
 const Card = () => { 
@@ -12,8 +13,8 @@ const Card = () => {
         <div className="centered card-border name"><h1>Asaad Hmeed</h1></div>
         <div className="centered card-border contect">
             <ul className="">
-                <li><a href={GITHUB_URL} target="_blank" rel="noopener noreferrer"><GithubIcon className='contactIcon' size='50px'/></a></li>
-                <li><a href={ LINKEDIN_URL } target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href={GITHUB_URL} target="_blank" rel="noopener noreferrer"><GithubIcon  className="contactIcon" /></a></li>
+                <li><a href={ LINKEDIN_URL } target="_blank" rel="noopener noreferrer"><LinkedInIcon className="contactIcon" /></a></li>
             </ul>
         </div>
         <div className="centered card-border sumary">

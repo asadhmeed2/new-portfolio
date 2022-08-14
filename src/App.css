@@ -6,6 +6,7 @@
   --background: black;
   --logo: rgb(235, 187, 96); 
   --text-secondary:white;
+  --body-background:rgba(221, 224, 214, 0.649);
 }
 
 .centered{
@@ -13,4 +14,7 @@
   justify-content:center;
   align-items:center;
   padding:15px 15px;
+}
+body{
+  background: var(--body-background)
 }
