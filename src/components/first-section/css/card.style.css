@@ -38,14 +38,6 @@
     list-style: none;
     padding-left:0;
 }
-.contect > ul > li > a{
-    text-decoration: none;
-    color: var(--text-secondary);
-}
-.contect > ul > li > a:hover{
-    text-decoration: underline;
-    color:var(--logo);
-}
 
 .my-image{
     width: 100px;
@@ -60,4 +52,12 @@
         max-width:60%;
         min-height:40vh;
     }
+}
+.contactIcon{
+    width:50px;
+    fill: var(--text-secondary);
+}
+
+.contactIcon:hover{
+    fill: var(--logo);
 }
