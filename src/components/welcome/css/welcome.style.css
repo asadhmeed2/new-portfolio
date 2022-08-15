@@ -10,7 +10,7 @@
     justify-content:center;
     align-items:center;
     transform:translateX(-100%);
-    animation: disappear 6s linear 1s;
+    animation: disappear 6s linear ;
     position: absolute;
 }
 
