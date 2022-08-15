@@ -10,7 +10,7 @@
     justify-content:center;
     align-items:center;
     transform:translateX(-100%);
-    animation: disappear 6s linear ;
+    animation: disappear 6s ease-in ;
     position: absolute;
 }
 
@@ -19,22 +19,7 @@
     0%{
         transform:translateX(0%);
     }
-    10%{
-        transform: scale(90%);
-        
-    }
-    20%{
-        transform: scale(80%);
-       
-    }
-    30%{
-        transform: scale(70%);
-        
-    }
-    40%{
-        transform: scale(60%);
-        
-    }
+   
     50%{
         transform: scale(50%);
         
