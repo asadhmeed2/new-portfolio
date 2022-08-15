@@ -3,7 +3,7 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(19, 16, 16);
+    background-color:var(--primary);
     padding: 0em 1em
 }
 

@@ -3,7 +3,7 @@
 :root {
   margin:0;
   box-sizing: border-box;
-  --background: black;
+  --primary: black;
   --logo: rgb(235, 187, 96); 
   --text-secondary:white;
   --body-background:rgba(221, 224, 214, 0.649);

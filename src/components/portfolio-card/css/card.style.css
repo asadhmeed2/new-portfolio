@@ -22,12 +22,12 @@
 }
 .name{
     grid-area: name;
-    background:var(--background);
+    background:var(--primary);
     color: var(--text-secondary);
 }
 .contect{
     grid-area: contect;
-    background:var(--background);
+    background:var(--primary);
 }
 
 .sumary{
