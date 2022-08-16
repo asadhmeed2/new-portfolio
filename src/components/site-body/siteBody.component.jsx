@@ -1,8 +1,10 @@
-import React from 'react'
-import Experience from '../experience/experience.component'
-import Card from '../portfolio-card/card.component'
-import WelcomeImg from '../welcome/welcome.component'
-import './css/siteBody.style.css'
+import React from 'react';
+import Experience from '../experience/experience.component';
+import FrameworksLogos from '../frameworkLogos/frameworksLogos.component';
+import Card from '../portfolio-card/card.component';
+import WelcomeImg from '../welcome/welcome.component';
+
+import './css/siteBody.style.css';
 
 const SiteBody = () => {
   return (
@@ -10,7 +12,7 @@ const SiteBody = () => {
     <WelcomeImg/>
     <Card/>
     <Experience/>
-    
+    <FrameworksLogos/>  
     </div>
   )
 }
