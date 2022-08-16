@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import JavaScriptLogo from '../../images/svgs/javaScriptLogo';
 import MongoDBLogo from '../../images/svgs/mongoDBLogo';
 import NodejsLogo from '../../images/svgs/nodejsLogo';
@@ -7,15 +7,35 @@ import './css/frameworksLogos.style.css'
 
 const FrameworksLogos = () => {
 
+    const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
+  let size = windowSize.innerWidth < 755 ? '100px':windowSize.innerWidth > 755 && windowSize.innerWidth < 1400? '14vw': '200px';
 
   return (
     <div className="frameworks">
-        <JavaScriptLogo height = '200px' width = '200px'/>
-        <ReactLogo height = '200px' width = '200px'/>
-        <NodejsLogo height = '200px' width = '200px'/>
-        <MongoDBLogo height = '200px' width = '200px'/>
+        <JavaScriptLogo height = {size} width = {size}/>
+        <ReactLogo height = {size} width = {size}/>
+        <NodejsLogo height = {size} width = {size}/>
+        <MongoDBLogo height = {size} width = {size}/>
     </div>
   )
 }
+
+function getWindowSize() {
+    const {innerWidth} = window;
+    return {innerWidth};
+  }
 
 export default FrameworksLogos
