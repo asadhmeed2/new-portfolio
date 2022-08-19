@@ -1,4 +1,5 @@
 import React from 'react'
+import './progressBarCircle.style.css'
 
 const ProgressBarCercle = ({fromColor="#DA22FF", toColor= "#9733EE" ,className=''}) => {
 

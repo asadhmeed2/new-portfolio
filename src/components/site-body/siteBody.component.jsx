@@ -1,8 +1,8 @@
 import React from 'react';
-import ProgressBarCercle from '../../images/svgs/progressBarCercle';
 import Experience from '../experience/experience.component';
 import FrameworksLogos from '../frameworkLogos/frameworksLogos.component';
 import Card from '../portfolio-card/card.component';
+import ProgressBar from '../progressBar/progressBar.component';
 import WelcomeImg from '../welcome/welcome.component';
 
 import './css/siteBody.style.css';
@@ -14,7 +14,7 @@ const SiteBody = () => {
     <Card/>
     <Experience/>
     <FrameworksLogos/>  
-    <ProgressBarCercle className="javaScript"/>
+    <ProgressBar className="javaScript"/>
     </div>
   )
 }
