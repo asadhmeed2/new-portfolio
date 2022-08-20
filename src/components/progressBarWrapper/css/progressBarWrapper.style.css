@@ -1,0 +1,8 @@
+.progress-bar-wrapper{
+    display: flex;
+    gap: 1em;
+}
+
+.progress-bar-wrapper> div{
+    text-align: center;
+}
