@@ -10,7 +10,7 @@ const ProgressBar = ({fromColor="#DA22FF", toColor="#9733EE", className="", numb
         <div className="number">{`${number}`}%</div>
       </div>
     </div>
-    <ProgressBarCercle fromColor={fromColor} toColor={toColor} className={`${className} progress-bar-svg`} />
+    <ProgressBarCercle fromColor={fromColor} toColor={toColor} number={number} />
     </div>
   )
 }
