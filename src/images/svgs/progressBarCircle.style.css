@@ -2,7 +2,7 @@ circle{
     fill:none;
     stroke: url(#GradientColor);
     stroke-width: 20px;
-    animation: progress-anim 2s linear forwards;
+    animation: progress-anim 3s linear forwards;
 }
 
 @keyframes progress-anim {

@@ -1,0 +1,23 @@
+.projects-container{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+.projects-taps ul{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .projects-container{
+        display:flex;
+        flex-direction:row;
+        gap:2rem;
+    }
+    .projects-taps ul{
+        display:flex;
+        flex-direction:column;
+    }
+}

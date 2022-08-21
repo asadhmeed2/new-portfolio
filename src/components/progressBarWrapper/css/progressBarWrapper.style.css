@@ -1,6 +1,7 @@
 .progress-bar-wrapper{
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .progress-bar-wrapper> div{

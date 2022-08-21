@@ -1,6 +1,7 @@
 import React from 'react';
 import Experience from '../experience/experience.component';
 import FrameworksLogos from '../frameworkLogos/frameworksLogos.component';
+import Projects from '../myProjects/projects.component';
 import Card from '../portfolio-card/card.component';
 import ProgressBarWrapper from '../progressBarWrapper/progressBarWrapper.component';
 import WelcomeImg from '../welcome/welcome.component';
@@ -15,6 +16,7 @@ const SiteBody = () => {
     <Experience/>
     <FrameworksLogos/>
     <ProgressBarWrapper/> 
+    <Projects/>
     </div>
   )
 }
